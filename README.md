@@ -12,7 +12,7 @@ EndSection
 ```
 
 #### Fix screen flickering
-Enable kernel parameter`i915.enable_psr=0`
+Enable kernel parameter `i915.enable_psr=0`
 
 ## Nvidia GPU
 #### Intel Only
