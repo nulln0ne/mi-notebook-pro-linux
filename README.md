@@ -5,8 +5,12 @@ Section "Device"
     Identifier  "Intel Graphics"
     Driver      "modesetting"
     Option      "AccelMethod"    "glamor"
-    Option      "DRI"            "3"
+    Option      "DRI"            "2"
 EndSection
+```
+- `/etc/environment`
+```
+LIBGL_DRI3_DISABLE=1
 ```
 
 ## Nvidia GPU
